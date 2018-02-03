@@ -35,6 +35,15 @@ public class SectionsPageAdapter extends FragmentPagerAdapter {
         return mFragmentList.get(position);
     }
 
+//    public Fragment getItem(String searchKey){
+//        for(String itemTitle: mFragmentTitleList) {
+//            if(itemTitle.trim().contains(searchKey))
+//                return mFragmentTitleList.;
+//        }
+//        return null;
+//    }
+
+
     @Override
     public int getCount() {
         return mFragmentList.size();
